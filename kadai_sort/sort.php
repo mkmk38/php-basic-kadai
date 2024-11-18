@@ -31,7 +31,7 @@
       sort_2way($nums, true);
       sort_2way($nums, false);
 
-        ?>
+    ?>
     </p>
 </body>
 
