@@ -21,6 +21,9 @@
       }
       
       // メソッドを定義する
+      public function set_price(string $price) {
+      $this->price = $price;
+      }
       public function show_price() {
         return $this->price;
       }
@@ -48,8 +51,11 @@
       }
   
       // メソッドを定義する
+      public function set_height(string $height) {
+        $this->height = $height;
+      }
       public function show_height(){
-          return $this->height;
+        return $this->height;
       }
     }
   
